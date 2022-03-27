@@ -54,6 +54,11 @@ namespace GradeBook.UserInterfaces
                 Console.WriteLine("{0} was not recognized, please try again.", command);
         }
 
+        internal static void CreateCommad(StandardGradeBook standard)
+        {
+            throw new NotImplementedException();
+        }
+
         public static void SaveCommand()
         {
             GradeBook.Save();
